@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siamese Cat Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Right-top HUD -->
+    <div id="hud">
+        <div id="instructions">Use W A D to move, collect 7 coins to win</div>
+        <div id="coins">Coins: 0 / 7</div>
+    </div>
+
+    <!-- Canvas for game -->
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+
+    <!-- Narrative dialog -->
+    <div id="dialogBox" style="display:none;">
+        <p id="dialogText"></p>
+        <div id="options"></div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
